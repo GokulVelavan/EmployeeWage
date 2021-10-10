@@ -20,7 +20,6 @@ namespace EmployeeWage
 
             int empHrs = 0, totalEmpHrs = 0,totalWorkingDays = 0;
             while (totalEmpHrs<=MAX_HRS_IN_MONTH && totalWorkingDays<NUM_OF_WORKING_DAYS)
-
             {
                 totalWorkingDays++;
                 Random random = new Random();
@@ -47,6 +46,7 @@ namespace EmployeeWage
 
 
             Console.WriteLine(" Total EMP WAGE:{0}", totalEmpWage);
+
 
             Console.ReadLine();
         }
