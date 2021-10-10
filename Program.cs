@@ -21,6 +21,8 @@ namespace EmployeeWage
             int empHrs = 0, totalEmpHrs = 0,totalWorkingDays = 0;
             while (totalEmpHrs<=MAX_HRS_IN_MONTH && totalWorkingDays<NUM_OF_WORKING_DAYS)
             {
+
+
                 totalWorkingDays++;
                 Random random = new Random();
                 int empCheck = random.Next(0, 3);
