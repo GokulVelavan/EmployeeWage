@@ -42,6 +42,8 @@ namespace EmployeeWage
                 totalEmpWage += empWage;
                 Console.WriteLine("EMP WAGE:{0}", empWage);
             }
+
+
             Console.WriteLine(" Total EMP WAGE:{0}", totalEmpWage);
             Console.ReadLine();
             }
