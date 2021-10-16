@@ -8,6 +8,7 @@ namespace EmployeeWage
 {
     class Program
     {
+<<<<<<< HEAD
         public const int IS_PART_TIME = 1;
         public const int IS_FULL_TIME = 2;
         public const int EMP_RATE_PER_HOUR = 20;
@@ -19,8 +20,16 @@ namespace EmployeeWage
             int empHrs = 0, totalEmpHrs = 0, totalWorkingDays = 0;
             while (totalEmpHrs <= MAX_HRS_IN_MONTH && totalWorkingDays < NUM_OF_WORKING_DAYS)
             {
+=======
+         public const int IS_PART_TIME = 1;
+        public const int IS_FULL_TIME = 2;
+        public const int EMP_RATE_PER_HOUR = 20;
+        static void Main(string[] args)
+        {
+>>>>>>> ee2b01351322d8c40a3c249bb3e42f269b7c3a1a
 
 
+<<<<<<< HEAD
                 totalWorkingDays++;
                 Random random = new Random();
                 int empCheck = random.Next(0, 3);
@@ -53,6 +62,27 @@ namespace EmployeeWage
         static void Main(string[] args)
         {
             computeEMPwage();
+=======
+            Random random = new Random();
+            int empCheck = random.Next(0, 3);
+           switch (empCheck)
+            {
+                case IS_PART_TIME:
+                empHrs = 4;
+                break;
+
+                case IS_FULL_TIME:
+                empHrs = 8;
+                break;
+
+                default:
+                empHrs = 0;
+                    break;
+            }
+            
+            empWage = empHrs * EMP_RATE_PER_HOUR;
+            Console.WriteLine("EMP WAGE:{0}", empWage);
+>>>>>>> ee2b01351322d8c40a3c249bb3e42f269b7c3a1a
             Console.ReadLine();
 
         }
