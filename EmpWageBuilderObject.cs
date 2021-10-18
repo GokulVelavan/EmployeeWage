@@ -58,7 +58,7 @@ namespace EmployeeWage
             Console.WriteLine("Total EMP WAGE for COMPANY: " + company + " IS: " + totalEmpWage);
 
         }
-
+         
         public string toString()
         {
             return "Total Emp Wage for company :" + this.company + " is: " + this.totalEmpWage;

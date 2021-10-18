@@ -8,11 +8,6 @@ namespace EmployeeWage
 {
     class Program
     {
-        
-
-        
-              
-
         static void Main(string[] args)
         {
             EmpWageBuilderObject dMart = new EmpWageBuilderObject("DMart", 20, 2, 10);
