@@ -13,8 +13,8 @@ namespace EmployeeWage
             EmpWageBuilderObject dMart = new EmpWageBuilderObject("DMart", 20, 2, 10);
             EmpWageBuilderObject reliance = new EmpWageBuilderObject("Reliance", 10, 4, 20);
             dMart.computeEMPwage();
-            Console.WriteLine(dMart.toString());
             reliance.computeEMPwage();
+            Console.WriteLine(dMart.toString());
             Console.WriteLine(reliance.toString());
             Console.ReadLine();
 
