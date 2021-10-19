@@ -10,7 +10,7 @@ namespace EmployeeWage
     {
         public const int IS_PART_TIME = 1;
         public const int IS_FULL_TIME = 2;
-
+          
 
         private int numOfCompany = 0;
         private CompanyEmpWage[] companyEmpWageArray;
